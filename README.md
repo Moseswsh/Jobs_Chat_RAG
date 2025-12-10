@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Steve Jobs RAG Demo
 
 Simple RAG demo based on Steve Jobs public talks/interviews (pre-2011) with FastAPI + OpenAI + a minimal vanilla JS frontend.
@@ -36,3 +37,7 @@ Simple RAG demo based on Steve Jobs public talks/interviews (pre-2011) with Fast
 - Frontend: host `frontend/` locally or via GitHub Pages; set `API_BASE_URL` in `frontend/main.js` to your Render URL so it calls the deployed backend.
 
 
+=======
+# Jobs_Chat_RAG
+In this project, RAG-powered “Steve Jobs” persona chatbot built with FastAPI and OpenAI. Retrieves answers from his real speeches/interviews and runs as a full-stack demo (API + minimal web UI).
+>>>>>>> 25ee0f4c7a0c2c787c6a67ecb6debe83e38e3554
