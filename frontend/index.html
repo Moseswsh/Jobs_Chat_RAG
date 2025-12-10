@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Steve Jobs RAG Chatbot</title>
+  <!-- Static resources are served via FastAPI's StaticFiles mounted at /static path -->
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <h1>Steve Jobs AI Persona</h1>
+      <p class="subtitle">RAG chatbot based on Steve Jobs public talks/interviews (for learning/demo only).</p>
+    </header>
+
+    <main class="chat-card">
+      <div id="messages" class="messages" aria-live="polite"></div>
+
+      <div class="input-area">
+        <textarea id="input" rows="3" placeholder="Ask Steve Jobs something..." aria-label="Your message"></textarea>
+        <div class="actions">
+          <button id="sendBtn" type="button">Send</button>
+          <span class="hint">Press Enter to send, Shift+Enter for newline</span>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Static resources are served via FastAPI's StaticFiles mounted at /static path -->
+  <script src="/static/main.js"></script>
+</body>
+</html>
