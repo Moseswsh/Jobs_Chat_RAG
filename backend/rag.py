@@ -50,11 +50,7 @@ class RAGPipeline:
         raw_texts = self._load_corpus()
         chunk_items: List[tuple[str, str]] = []  # (chunk, source filename)
         for text, source in raw_texts:
-            filtered = self._filter_speaker(text)
-            if not filtered.strip():
-                # Skip empty after filtering to avoid noise
-                continue
-            chunk_items.extend(self._chunk_text(filtered, source))
+            chunk_items.extend(self._chunk_text(text, source))
 
         if not chunk_items:
             raise ValueError("No usable corpus chunks found; please check data files.")
@@ -216,68 +212,4 @@ class RAGPipeline:
         ]
         return any(term in text for term in private_terms)
 
-    # ---------------------- Corpus cleaning: filter non-Jobs speakers ---------------------- #
-    def _filter_speaker(self, text: str) -> str:
-        """
-        Filter non-Jobs speakers from interview transcripts based on user-defined "fine-grained rules":
-        1) Name and question density: many question marks targeting "you/can you/what do you think" -> interviewer.
-        2) First person vs second person: I/we narratives more like Jobs; many "you" pointing to Jobs more like interviewer.
-        3) Length threshold: very short questions (<20 words) with question marks -> discard.
-        4) Keyword blacklist: e.g., "Thank you, Steve" -> discard.
-        5) Sentences starting with "steve jobs:" are directly identified as Jobs' speech.
-        """
-
-        paragraphs = [p.strip() for p in text.split("\n") if p.strip()]
-        kept: List[str] = []
-        for para in paragraphs:
-            if self._is_probably_jobs(para):
-                kept.append(para)
-        return "\n\n".join(kept)
-
-    def _is_probably_jobs(self, para: str) -> bool:
-        """Return whether this paragraph is more likely to belong to Jobs."""
-        lower = para.lower().strip()
-
-        # Rule 5: "steve jobs:" prefix directly considered Jobs' speech
-        if lower.startswith("steve jobs:"):
-            return True
-
-        # Rule 4: Blacklist
-        blacklist = [
-            "thank you, steve",
-            "thanks, steve",
-            "thank you steve",
-        ]
-        if any(b in lower for b in blacklist):
-            return False
-
-        words = para.split()
-        word_count = len(words)
-
-        # Rule 3: Very short questions -> discard
-        if word_count < 20 and "?" in para:
-            return False
-
-        # Rough count of first/second person
-        first_person_tokens = [" i ", " i'm", "i'm", "i ", " we ", " we're", "we're"]
-        second_person_tokens = [" you ", " you're", "you're", "you ", " can you", "what do you think"]
-
-        first_count = sum(lower.count(tok) for tok in first_person_tokens)
-        second_count = sum(lower.count(tok) for tok in second_person_tokens)
-
-        # Rule 1: Question density + you-related questions -> interviewer
-        question_bias = ("?" in para) and (
-            "you" in lower or "can you" in lower or "what do you think" in lower
-        )
-        if question_bias and second_count > first_count:
-            return False
-
-        # Rule 2: First person vs second person
-        if first_count >= second_count:
-            return True
-        if first_count == 0 and second_count > 2:
-            return False
-
-        # Default: conservatively keep to avoid false positives
-        return True
 

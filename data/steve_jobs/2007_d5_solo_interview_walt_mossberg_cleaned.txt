@@ -1,0 +1,374 @@
+TITLE: D5 Conference — interview with Walt Mossberg
+DATE: 2007-05-30
+SPEAKER: Steve Jobs
+CONTENT_TYPE: interview and Q&A
+SOURCE_URL: https://allaboutstevejobs.com/verbatim/interviews/d5_conference_steve_2007
+
+---
+
+
+I like the music, thank you.
+
+Sure, howdy.
+
+Apple's in two businesses today, and a hobby. And we're about to add a third business. So we'll very shortly be in three businesses and a hobby.
+
+A hobby. And the businesses are, one our Mac business, which we love and is growing really well. The second is our music business. And each of those two are about $10 billion businesses for us. And the third business we're about to get in is the phone business, handsets.
+
+We're about to have a phone.
+
+Okay. I'll send you one.
+
+And then the hobby is Apple TV. And, it's, it's the reason I call it a hobby is because a lot of people have tried and failed to, you know, make that a business. Everybody from, you know, TiVo to Microsoft, you know, everybody's tried and it's a hard problem. And so we're trying, and it's a business that's, you know, hundreds of thousands of units a year, but hasn't really crested, you know, to be millions of units per year. And I think if we work on it and improve things over the next year, 18 months, we can crack that.
+
+Well, we, you know, we all use Macs at Apple. We love the Mac. And so we're steadily trying to improve things as everybody in our industry is. And we think we make the best notebooks in the world, we think we make the best desktops in the world. And, our share on notebooks is ahead of the industry. We're about two thirds notebooks, one-third desktops, and the industry's about 40% or so notebooks. And we've always been a little ahead there, and I could see a time when notebooks are even going to be, you know, 80-90% of what we sell.
+
+We're also always improving our operating system. Generally, we have a release every 18 months or so. And, we had a really big release, about 18 months ago, that we didn't get much credit for, but it was actually, Mac OS X Tiger, which is our current release, on Intel.
+
+Because we switched the whole product line to Intel processors. And that's, for anyone that's ever tried to do anything like that, that's a huge thing to do. And we did it really well, I think, I mean, it was very seamless for the customers. And, so that worked very well. And the growth that we've seen, over the last several quarters, really, since we got through that Intel transition, has been about three times the market growth rate. So we've been picking up market share for the last, you know.
+
+Yes.
+
+That's worldwide.
+
+If you look at the, if you parse out the US numbers, it's even more than that, it approaches 5X.
+
+If you measure it worldwide, it's like 3. If you measure it in the US, depending on who you listen to, it's 5 to 6. If you look at US retail for notebooks, it's 12. You know, so it depends on how you tweed the numbers together. There aren't really great numbers out there. As an example, if you look at US retail, you know, we have double digit market share, but it doesn't include our web store, but nor does it include Dell's web store. So since Dell doesn't give us their numbers, we can't really calculate, you know, what the consumer market share might be versus the enterprise market share.
+
+Yeah, totally. Totally. I mean, as an example, if you come to our worldwide developer conference, which is a week from this coming Monday, we'll have the largest attendance we've ever had there. And we're rolling out the next generation of our operating system, Leopard, which we'll ship in October. No, it's massive investments we're making in that business. We love it.
+
+So a while means since last September?
+
+This is a fast moving business.
+
+Yeah. We generally don't talk about..
+
+A new Nano.
+
+Okay.
+
+It sure felt like that, with all the work that went into it, but I'll concede to that.
+
+As we look forward to all I can - all I should really say is that, we're working on the best iPods that we've ever worked on. And they're awesome. And I can't wait till they're done!
+
+Yeah. Yeah.
+
+Just a little thing here. Best iPod we've ever made, by the way.
+
+The best iPod we've ever made. Best phone we've ever made too.
+
+Late June.
+
+Yeah. No, I would say in the latter part of June.
+
+I sure hope so.
+
+I think we'll ship a lot of them. Will it be enough? You know, I don't know. I hope not.
+
+We're going to be selling these in our own stores and through Cingular, which is now the new AT&T.
+
+And they've got...
+
+You know, it's really interesting.
+
+We've gotten to know some of the players and, we haven't sold a phone yet, but Cingular has been really great with us, I have to say.
+
+No, actually not by leaving us alone. They did a deal with us. We did a pretty different kind of deal than they'd ever done before. And it bent a lot of their - bent or broke a lot of their rules. They'd never done anything like this. And they did it with us without ever seeing the phone. We wouldn't show it to them. And
+
+You know what it was? It's like, and we kind of did this in return, cause we don't know much about how they work either. If you talk to great venture capitalists, they'll tell you that they invest in people, not ideas. Even if the ideas are great, they're really investing in the people. And I think Cingular invested in us. They took a gamble on us. And, likewise, we took a gamble on them. And so I will never forget that.
+
+I think they did it for two reasons. The first reason they did it was because music on phones hasn't been so successful so far, and they really wanted to do something good with music on phones, and they knew, with the iPod built into the phone, we could do that.
+
+The second reason though, I think is even more profound. And that is that they have spent, they, along with everyone else in the business, have spent and are spending a fortune to build these 3G networks.
+
+And so far, there ain't a lot to do with them. You know, people have not voted with their pocketbooks to sign up for video on their phones. Hasn't really worked. So they've got a lot of bandwidth, but these phones are not capable of taking advantage of it, because their internet experience is so poor. You've used the internet or you've tried to use the internet on your phone and it's terrible. They have lousy browser and you don't get the internet, you get the baby internet, or the mobile internet, or something bizarre. And what people want is the real internet on their phone. And they believe that we could deliver that, and we are going to deliver that. And so we're going to be able to take advantage of some of the investments they're making in this bandwidth, I think in an entirely new way. We'll see.
+
+Yeah.
+
+Well, again, a billion units is the worldwide number. The US number is obviously a lot less than that, so, since we'll be selling primarily in the US, and to some extent in Europe by then, it's a little bit bigger than 1%. But we're newcomers. People have forgotten more than we know about this.
+
+Nope. Sorry.
+
+Right now it's just the EMI, but there's, zillions of independents that are also jumping on this bandwagon. So as fast as we can now get their stuff encoded, you'll see more and more on there.
+
+And as we've said before, I think over half the songs we offer on iTunes will be offered in what we call iTunes Plus, which is our DRM free, higher-quality audio versions, by the end of this calendar year.
+
+Same store, yeah.
+
+Well, we worked really hard at that. What we do is, the first time you go to buy one of these iTunes Plus songs, it asks you, it says, Hey, would you like us to only offer you iTunes Plus where it's available? And most people will say yes, if they like iTunes Plus. And so it just substitutes the iTunes Plus song in, just one song, one price, $1.29, and whenever they're available, you get those. So it's pretty simple. Right? And then we have another cool thing, which is we're offering people a special offer to upgrade every song that they've ever bought from iTunes to an iTunes Plus version if it's available, for 30 cents a song or, 30% of the current album price, whichever is, you know.
+
+Yeah, well we know what we've sold. So we just download new versions and substitute them. Yeah.
+
+All we're, you know, we're working with them. It's, as you know, the music company shipped 90% of their music DRM free today. Because all CDs are DRM free, right? And that's how all the music's distributed. So we've gone to them and said, look, you're shipping 90% of your music DRM free, customers are willing to pay a little bit more to get their downloaded music DRM free to, and why don't we do this? Plus the solves all the interoperability problems and things like that. And, we were successful in persuading EMI, and hopefully over the rest of this year, we'll be successful in persuading, most or all of the rest of the labels.
+
+Well, again, if you look at the total number of iPods we've sold, and you look at the total number of songs we've sold on iTunes, it's less than 25 per iPod. So, and the average iPod user has hundreds of songs on their iPod. So they're clearly not getting the majority of their songs from iTunes. It turns out they're not even getting even a medium-sized minority from iTunes. And so this whole notion that somehow we have a lock-in that iTunes is locking people in to buying iPods, is ridiculous. And since iPods can take any, you know, anything, take any MP3 from anywhere and play it, right? The notion that if you buy an iPod, you get locked into iTunes is equally ridiculous. You can get MP3s from anywhere. Matter of fact, most people do. They rip their CDs or they get music in other ways.
+
+And the vast majority of their music, they get in other ways. So, the way we've always felt is, if we have the best music player, we're going to sell iPods. If we have the best music store, we will continue to pioneer people buying music. And, we work really hard on both of them, but we've never felt that one was significantly helping the other. We felt that we had a great solution here and people were using ...
+
+Well, there's, there's three pieces to it. There's the iPod, there's iTunes the jukebox, which runs on PCs or Macs and is free, right? And you don't even have to use it with an iPod if you don't want to, and as a matter of fact, many people don't. And then there's the online store in the cloud. Right?
+
+We give to the music companies, that's right.
+
+Well, again, if people are getting, you know, the vast majority of music for their iPods from places other than the iTunes Store, I think the iPod's winning cause it's the best music player. It's the preferred music player. And our philosophy is, we better make the best music players if we want to keep winning. So we work real hard at it and hopefully we will continue to do that.
+
+It's three things.
+
+It's three things. It's the best iPod we've ever made. It's an incredibly great cell phone. People are probably overlooking that part of the thing. You know, all cell phones are the same. But we've really revolutionized how you use a cell phone. If it was nothing but a cell phone it'd be really successful. And then the third thing is, it's the internet in your pocket for the first time.
+
+And if it was any one of those three, it would be successful. If it was just the internet in your pocket, you know, it would be what the Sony Mylo aspired to be. If it was just the best iPod we've ever made, we'd sell a lot of them with that. And if it was just a phone, we'd do pretty well with that too. But it's all three of them. And, you know, they play off each other.
+
+Lots.
+
+Yeah.
+
+No, it doesn't work that way. If you want to, if you want to hire and keep really bright people, then you can't tell them what to do.
+
+Very often. Right?
+
+Like once, once a year, maybe twice you get to do that.
+
+You have a silver bullet now and then, but, basically you don't do that. And so at Apple, it's about ideas. And we argue about ideas constantly.
+
+None.
+
+None, no.
+
+Yeah,
+
+Yeah.
+
+For a few reasons. One, once you actually use a touch display like this, it's like a...
+
+Hi there.
+
+I see. Hi official photographer.
+
+It sounds like a machine gun.
+
+Once you use this magical display, there's no going back. It's unbelievable. And, so there there's a few advantages. Number one, we actually think we've got a better keyboard. And it takes a few days of getting used to it, you know, like it does with any small keyboard. But, I'll bet you dinner that after using it for a week, when you do get your hands on one, you will think it's really great. Really great. Because we can...
+
+Yeah, we think so. Again, you get, it takes a week to - basically you have to learn how to trust it. Once you learn how to trust it, you fly. Yeah.
+
+And the other nice thing about it of course, is that we can use that physical space for other things when you don't need a keyboard. Right.
+
+And you can keep changing the user interface as you come up with new ideas, new applications. We were talking with the folks at Cingular one time and they said, well, we have to have a button for this. And we said, Oh, don't worry about that. We'll add it after we ship. And they hadn't seen the phone yet, they didn't know anything about it. And they looked at us like, huh? We said, don't worry about it. So yes, it provides incredible flexibility to create great user interfaces for different applications. And, you know, you don't take up half the space of this thing with a physical keyboard. But in addition to that, once you learn how to trust the keyboard, it's a better keyboard.
+
+You know, if you zoom out of the whole thing and you say, why does the iPod exist? Why is Apple successful in this business? What would the answer be? It would be because the Japanese consumer electronics companies, who were the preeminent hardware makers of consumer electronics until recently, couldn't do software work as well as needed to be done. Right?
+
+If you really look at the iPod, it's software. It's a software product in beautiful hardware. It's software in the device, it's as we said, software on the PC or the Mac, and it's software in the cloud, with the store. It's software wrapped in a beautiful package. And the Japanese consumer electronics companies couldn't make the leap to create that kind of software. And that's why Apple enjoys the success it does with the iPod.
+
+If you look at handsets, it looks very similar. The handset manufacturers, have got their hardware down, but they haven't been able to make the leap to software. And, you know, just like, you know, with PlaysForSure and stuff, you know, Microsoft has some software that they can go license, but it's on a fairly small number of phones, and it's of a certain caliber. And, so if you really look at an iPhone, it's software wrapped in really wonderful hardware. And so people, the usual suspects will try to copy the hardware. And it will take them some time and maybe they will, and maybe they won't, be able to copy the hardware. But the software is at least five years ahead of anything we've seen out there. And it's really hard to do it. We, you know, we spent years working on this, but remember that we started with an operating system that we've been working on for, well over a decade when we started. And we started with a browser, Safari, which is what's an iPhone, which is regarded by many as the best browser in the world.
+
+So the answer is yes, it does. And the entire Mac operating system is, when you get it on a disc, is gigabytes. A lot of it's data. You take out the data.
+
+We don't need every desktop pattern that we ship. We don't need every sound file that we ship. If you take out the data, the operating system is actually not that huge. And if you look at Safari, Safari is not that huge. Now it's got real OS X, real Safari, real desktop email, et cetera, et cetera, et cetera. And we own those apps. So we could take Safari, and take all of that work that we put into it, and put a very different user interface on it, to work with the multi-touch screen. And if you don't own a browser, that's pretty hard to do. You know, so it's an amazing amount of software.
+
+Well, we don't think that's a good idea.
+
+And obviously, we don't want to have a mouse on our phone, and we don't to have pull down menus and things like that. So, we think there's a very different user interface for the phone.
+
+Sure.
+
+You know, I think what everybody's tried, and the place where we've come from too, is coming from the personal computer market, you first think about getting content from your PC in your living room, on your widescreen TV. And I'm not so sure that's really what most consumers want. I mean, yeah, it's great to show your photos, it's great to play your music that you have on your PC wirelessly, and get that all on there. But we tend to think of that as the entree. And the more we think about this, the more we think that might just be the peas on the side, you know? And that the entree really might be things that you get directly from the internet.
+
+That's right. We're learning!
+
+I want to do, I brought something to show you if you'd like.
+
+So I've got an Apple TV over here. And where's the remote? Here's the remote. So your screens are here. Okay. How many of you have seen this by the way? An Apple TV. Oh, not so many. Okay. Well, let me, I'm just not going to take too much time here, but let me take a little bit of time. This is the photo screensaver here, just takes all your photos and puts them up on your nice TV. And so this is what it looks like when you go into it and you can go into movies here if you want. And we show, we actually do stream a few things off the internet directly to this Apple TV box here, without going through your PC. And we of course, hookup with an ethernet cable, or we hook up wirelessly with 802.11n networking. And one of the things we stream directly is theatrical trailers, we stream these from apple.com. So you can go in here and, you know, just take a look at a trailer. Like there's one that I happen to love, which is for a little movie that's coming out at the end of June, called Ratatouille. Here we go. And, this has turned out really well.
+
+Yeah.
+
+Anyway.
+
+No, this works just fine off cable modems and stuff.
+
+And, works even fine off even better one hundred megabit per second fiber optic networks that I hear some people have.
+
+And, you know, you can buy movies off iTunes as well. So we can go back here and I can just, you know, there's the Sixth Sense right here, this was just bought off iTunes, and you can just see what the quality is.
+
+So you can see the quality there. It's pretty good.
+
+We aren't selling Hi Def at this point, just because of the trade-offs between download time and quality. But I think in the future, that might change.
+
+Yeah.
+
+And the other thing you can do is, we sell a lot of TV shows. We've, you know, we're gonna sell our hundred millionth TV show, I think, probably this year, so it's fun. And, let's see, where's a good one. The Office has some good ones here, was looking at one. This one's fun.
+
+So, you get the idea. And, so, we've got movies and TV shows. And, again, the movies that you buy are stored on your PC, the TV shows you buy are stored on your PC, and you can stream them wirelessly, or you can download them to the hard drive inside Apple TV. So if you have a notebook and your content, you know, close the lid and your content walks off, you still have some stuff to watch on the hard drive of Apple TV. And you've got all of your music and you've got your podcasts and your photos. Photos are great, cause photos of course are in High Def. And, you can look at all your photos and just again, stream them over. Boom, boom, boom. So here you have photo slideshows like this.
+
+You can pick the music on the computer and it just plays it whenever you play it on here. That's very easy to do.
+
+We'll see over time. We'll see over time. I think it's really cool, but I'm not so sure that, I'm not so sure it is. We'll see.
+
+So, what we're going to do today is just introduce something, what we introduced this morning was, something really cool. And that is people want to watch a lot of video. A lot of people haven't bought a lot of movies. Haven't bought a lot of TV shows. And, one of the most incredible things that's happened over the last few years is YouTube, right?
+
+Yeah. Original generated content.
+
+And, wouldn't it be great, if you could see YouTube in your living room? You could see YouTube on your TV? I mean, we can see YouTube on our computers right now, but we can't see it in our living room. So we've had a real great opportunity to work with the YouTube folks. And, we just put YouTube right in the main menu there.
+
+Yeah. We're announcing it today. And we're going to give it as a free upgrade, free software download upgrade, mid June.
+
+So it's coming in just a few weeks. Normally I would have waited to announce it, but Hey.
+
+Yeah, it's D, so. And so, we can just go into YouTube now, just like we can go to movies or TV shows and, you can see, you know, the parade of videos here. And we have tried to implement most of their features here, and we have featured, most viewed, most recent, top rated, you can search. And so, you know, let's go into most viewed here and again, we can, you know, see a parade of images. And so let's go inside and... oh, there's a cool one here actually. Or is it? You might've seen some of these, but they're pretty amazing. So here's one.
+
+I don't actually know how they do this?
+
+Yeah. So when you're done - when you're done, you get to see all the related videos here. I could play some of those too, if you want, but... actually there's one that's very cool.
+
+This is very cool.
+
+Forget this guy. It's the second guy up that's really good.
+
+It's this next guy.
+
+You get the idea?
+
+It's really funny. Since we got this working, we've watched a ton of this stuff.
+
+Yeah probably.
+
+It's turned out to be really cool. And, let me just, you know, oops, let me go back in, let me show you one other thing here real quick. You can search for stuff really easily. And we've got a live search here. So let me search for "girl" and it just starts finding stuff right away.
+
+Oops. What'd I do? Oh, well, yeah. Let me go back here and try again. I'm nervous up here, I'm hitting the wrong keys.
+
+Like, you know, look at some of the stuff. I found this the other day. This is kind of cool.
+
+For a year, this girl took a photo of herself.
+
+Anyway. And I got one last one for you. That's actually amazing.
+
+Yeah. Watch this though. This - this is like the Darwin awards.
+
+So, there you go.
+
+You know, the biggest thing limiting the quality of the YouTube clips is actually the source material that YouTube gets.
+
+And, slowly but surely people are figuring out how to use better, you know, camcorder techniques and lighting and encode them better. But you get what you get. And what's really funny is, you know, I mean, like you, I'm a stickler for quality, but it's amazing how fun these things are to watch, even in the quality they're at.
+
+So - again, it's just, it's one more piece of the puzzle, but it's amazing how fun it is to watch this stuff in your living room rather than just on your computer.
+
+That's a good idea. Let's do it.
+
+I think, you know, over - in the fullness of time, I think that all these things are going to percolate, from us, from others, and there'll be all sorts of interesting things happening. And we're going to be there with our collection of interesting things.
+
+I think maybe you'll see stuff like that. I think a normal web browser is not necessarily what people want right in their living room. But I think you will see stuff like that. Yeah.
+
+That's my species. Serious.
+
+You know, I use the word hobby just because it's a little provocative in the sense that it's - the iPod started this way. I mean, the iPods are really great phenomenon today, and it's a big business today, but it started off a little smaller. And, it started off feeling a lot like this, so.
+
+Totally, yeah.
+
+No, it's not a set top box, I mean, that's what screwed up...
+
+Well, that's not how we look at it. That's what screwed us up for a few years, as we've wanted to do this for a few years, and we thought of it as a set top box replacement. And the minute you're going to replace a set top box, you get into an entire, real, gnarly set of problems, you know? Cause you have to have the cable cards, and you have to kind of go through the cable companies to get to market. And they use this very strange software called OCAP that you have to implement, so that you can implement their billing systems and all sorts of other things like that. And we would never, that just isn't something we would choose to do ourselves. And so we didn't do it. We didn't do it because we couldn't see a go to market strategy that made sense. But then one day we realized, wait a minute, there's a lot more DVD players out there than there even are set top boxes. We don't have to replace the set top box, the DVD player didn't replace the set top box. We just have to be, we want to be a DVD player for this new internet age. And that's what we can be. And so our model for Apple TV is like a DVD player for the internet.
+
+Yeah.
+
+Right.
+
+Right.
+
+You did it. You know what it's like.
+
+Lots.
+
+Several times more.
+
+Or more.
+
+Right.
+
+Statistically, yes.
+
+Exactly.
+
+Oh, we've got cards and letters from lots of people that say that iTunes is their favorite app on Windows.
+
+It's like giving a glass of ice water to somebody in hell.
+
+The scale of a lot of things we're doing surprises me. It's just, yeah. I mean, I never thought we'd ship a hundred million iPods, you know?
+
+No.
+
+Yeah, but a hundred millions, for us, it's a very big number.
+
+I suppose, we'd rather it ship a hundred million and have a lesser share than have 80% of a 10 million unit market, but.
+
+I was definitely more skeptical than customers. And, what happened was with the iPod video, boy, they proved us - they proved us wrong. And a lot of people, you know, we'd go out and talk to our customers a lot, and do a lot of research on that. And, video has been the number one or two reason people have bought that product, and they use it a lot. So, and, you know, again, we've sold the better part of, you know, a hundred million television shows. So, it's...
+
+We don't except by going out and asking people, and it's both. But people have watched a lot of video on those iPods and the screens are, you know, the screens are small and they're, you know, $249 and things like that. So I think video's here to stay on portable devices and I think its use will only grow.
+
+Sure we do.
+
+Because it's an iPod, all those videos you've bought for your iPod play perfectly on the iPhone.
+
+Over the air?
+
+No.
+
+Yeah.
+
+People have tried it with music so far and it's failed. And part of the reason that it's failed is that a phone isn't necessarily the best place for discovering or browsing through large catalogs of music to figure out what you want to buy. And then when you download it to the phone, it costs more money because the airwaves cost more than the terrestrial internet. And then, when you get it on your phone, you've got to sync it back to your PC anyway, because if you lose your phone or trade in your phone, you don't want to lose a few hundred dollars worth of music. So you can either buy it on your phone for more money in a less good environment, and sync it back to your PC, or you can buy it on your PC, much bigger screen, easier way to buy, and then sync it to your phone. And, you know, we, again, we've got a hundred million iPods we've sold, that people know how to sync to their PCs, they know how to buy music on iTunes, and it's just, you know, second nature to just sync it to the iPod.
+
+We certainly have nothing to announce today.
+
+Oh, that's a long discussion, but I will say...
+
+I would say that, I think, you know, in our businesses, I mean, we don't build $4 billion semiconductor fab facilities that provide barriers to entry to competition and things like that. We're not a capital intensive industry like that. And so, all we are is our ideas, which means all we are is our people. And that's what keeps us going to work in the morning is a chance to hang around all these great bright people. So, I've always felt and still feel even more strongly that recruiting is like the heart and soul of what we do. And it's really important.
+
+Yeah.
+
+Right.
+
+Sure. Well, it's actually a really interesting thing. It's a 2.5G phone plus wifi. And it automatically switches to wifi whenever it finds wifi. And it just switches to the fastest network automatically, and you don't even have to think about it. And you know, I'm in this industry and we were the first people to ever ship Wi-Fi in a notebook computer and, you know, have the first cheap wifi base stations out there, and stuff. So we're really into it. Shipped the first g, shipped the first n. And so, we're really, you know, we're around wifi all the time. The iPhone has a feature that when you're - when you're in a place, if you choose to join a network, it remembers that. If you're in the same place, it'll just automatically join that network if it's the fastest one. But when you're in a place where you've never joined a network and it finds it, it will just alert you to that, and say, do you want to join one of these things? And so, you know, I live in Palo Alto, so there's a fair amount of wifi, I would figure, but it's everywhere. You walk ten blocks, and you're going to encounter 50 wifi networks. You know, I mean, some of them are people's personal ones that you can just, you know, take a ride on. Others are in - others are in stores of one form or another, it's everywhere. And I had, there's like ten times more wifi out there than even I thought there was, and I live in this industry every day. So, wifi is of course way faster than any 3G and, Edge turns out to be pretty fast too actually, cause it's a point to point connection. I've been really surprised at how good Edge is.
+
+Orifices?
+
+Yes.
+
+That's what it means.
+
+Well, without getting into that, I can say that our Mac versus PC campaign, we do advertise on the internet quite a bit. But, but not on those porn sites that you're talking about.
+
+Sure. It's a good question. This is a very important trade off between security and openness, right. And what we want is we want both. We want to have our cake and eat it too. And, so we're working through a way, we've got some pretty good ideas that we're working through. And I think, sometime later this year, we will find a way to do that, because that is our intent.
+
+Find a way to let third parties write apps and still preserve the security.
+
+Until we find that way, we can't compromise the security of the phone. This is something...
+
+You know, I won't mention names, but I've used, you know, we've all used a lot of smartphones that crash more than once a day. And the more there were third party apps you put on them, the more they crash. And we don't, you know, we're going to, nobody's perfect, but we'd sure like our phone not to crash, once a day or more. And so, we would like to solve this problem, I think we're going down some really good avenues to do it, if you could just be a little more patient with us, I think everybody can get what they want.
+
+Yep.
+
+Thank you.
+
+Well, I think when you're talking about a portable device, whether it be a notebook or an iPod or a phone, it's all about power. It's all about battery life. And so, fortunately we've been fighting that fight for a long, long time with our notebooks, right? With our Macs. And so, we've got a lot of technology for managing power. I think Macs are pretty well known for managing power quite a bit, you know, kind of the best of breed in the PC industry. And, we've applied a lot of that and learned a lot more from iPods. And so, we were able to bring all of that, all those things we'd learned together, in the phone. And, I'd say you've hit upon one of the key problems in portable devices, is just power. Yeah.
+
+Oh, thank you. Uh, I'm still vertical! I'm feeling great, thank you.
+
+Thanks.
+
+Well the answer, first of all, let me point out a few things. Let me point out a few things. Number one, of course all the MP3s that you guys sell will play just fine on iPods. And number two, the reason we chose AAC in the first place is, for a given data rate, it's significantly superior to MP3 in its audio quality. So it's a much better encoder. And we don't own it. We license it. Anyone can go license it, and as a matter of fact, a bunch of people have. Microsoft has, most of the players out there have gone and licensed AAC and they do play AAC. So, I'm sure you can name a list of people that don't, but they can easily go out and license it and they'll play it. But most of the big players out there now do play AAC. Cause it a. It is a superior codec and b. they want to be able to play stuff that iTunes people rip their CDs in iTunes, and they, most of them choose to rip it into AAC, they want to be able to play that stuff. And they can today. Anyone can go license AAC, it is a totally open standard.
+
+They're not licensing it from us.
+
+Absolutely. Yeah. So it's just like MP3, by the way, MP3 isn't free. We go license it from an industry body. AAC is actually much simpler to license than MP3 is. So we're not trying to keep anybody out, we're just trying to use a superior technology, which results in much better audio quality at any given data rate. And, others seem to agree with us because they seem to be putting AAC into their products more and more. And so, you know, you could encode all your stuff in AAC if you want it to as well, it'd be really easy. But even if you don't, all the iPods still play MP3.
+
+Thanks.
+
+Well, I mean, we do also build video cameras in the most of our computers now. And...
+
+What's that?
+
+Oh, MacBooks are pretty, pretty tiny, but...
+
+Phil Schiller held a MacBook as he jumped off. Yeah, but. Yeah. We, you know, we are not planning on getting into the camcorder market, if that's what you're asking.
+
+I have read a few of the Fake Steve Jobs things recently, and I thought they were pretty funny. And I get asked a lot if I know who it is, and I don't. But, but it is pretty funny.
+
+Maybe it's Walt.
+
+And, I am interested in storytelling. I got involved with Pixar a long time ago, and, I'm one of the cheerleaders at Disney still. And I love a lot of stuff that they do. So I love storytelling. But what we do at Apple is, we try to make tools for people, in the end. And, tools to enjoy entertainment, tools to communicate, tools to create, whether it's Macs or phones or iPods. And, what we find is, is that, you know, in this age we're living in, these computer based tools can always surprise you on the upside, you know? We didn't design Apple TV thinking about YouTube, but here it is. We didn't design iTunes thinking about education, but one of the things we announced this morning was called iTunes U, where there's like, you know, I think it's 17 universities, and there's hundreds in the pipe, are putting their courseware on iTunes to where their students and even anybody can access it. And these are there, what they're doing is, they're taping lectures, either audio or videotaping lectures by their best professors, and they're putting them on their servers, so their students don't have to sit there and take notes and not pay attention to the lecture. They can just listen to the lecture, and then go get a copy of it, and put it on their iPad and take notes later. And alumni can get at it, and, you know, kids that don't even go to the university can get at it. And, you know, it's MIT and Stanford and Berkeley and all these great universities, and this is iTunes, and it's free! And so, you know, who would have thought? And so that's why I love what we do. Because we make these tools and they're constantly surprising us in new ways, what we can do with them. So.

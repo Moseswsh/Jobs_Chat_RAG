@@ -1,43 +1,106 @@
-<<<<<<< HEAD
-# Steve Jobs RAG Demo
+# Jobs Chat RAG
 
-Simple RAG demo based on Steve Jobs public talks/interviews (pre-2011) with FastAPI + OpenAI + a minimal vanilla JS frontend.
+A small retrieval-augmented chat application built with FastAPI, OpenAI, and a static browser UI. It retrieves passages from the text files in `data/steve_jobs` and uses them to answer questions in a Steve Jobs-inspired persona for learning and demonstration.
 
-## Backend (FastAPI)
-1) (Recommended) create venv  
-   - `python -m venv .venv`  
-   - Windows: `.\.venv\Scripts\activate` ; macOS/Linux: `source .venv/bin/activate`
-2) Install deps  
-   - `pip install -r requirements.txt`
-3) Env vars (use `.env` in project root)  
-   - `OPENAI_API_KEY=your_key`  
-   - Optional: `EMBEDDING_MODEL`, `GENERATION_MODEL`, `CHUNK_SIZE`, `CHUNK_OVERLAP`, `TOP_K`
-4) Run  
-   - `uvicorn backend.main:app --reload --port 8000`
+## Features
 
-## Frontend
-- Option 1: Open `frontend/index.html` with VSCode Live Server  
-- Option 2: `python -m http.server 5500` in project root, then visit `http://localhost:5500/frontend/index.html`
+- Loads every non-empty `.txt` file directly inside `data/steve_jobs` at application startup.
+- Splits corpus text into overlapping word-based chunks and creates embeddings with OpenAI.
+- Retrieves the most relevant chunks using cosine similarity, then generates an answer with the retrieved context.
+- Returns the source filenames alongside each answer.
+- Serves the chat page, JavaScript, and CSS from the FastAPI application.
+- Includes `/health` for a basic service health check.
+
+The corpus is indexed in memory when the application starts. Restart the application after changing corpus files so the index is rebuilt.
+
+## Requirements
+
+- Python 3.11 or newer
+- An OpenAI API key with access to the configured embedding and chat models
+
+## Run locally
+
+1. Create and activate a virtual environment:
+
+   ```bash
+   python -m venv .venv
+   ```
+
+   Windows PowerShell:
+
+   ```powershell
+   .\.venv\Scripts\Activate.ps1
+   ```
+
+   macOS/Linux:
+
+   ```bash
+   source .venv/bin/activate
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Set `OPENAI_API_KEY` in the environment or in a root `.env` file:
+
+   ```text
+   OPENAI_API_KEY=your_api_key
+   ```
+
+4. Start the server:
+
+   ```bash
+   uvicorn backend.main:app --reload --port 8000
+   ```
+
+5. Open <http://localhost:8000> in a browser. The API documentation is available at <http://localhost:8000/docs>.
+
+## API
+
+### `POST /chat`
+
+Request:
+
+```json
+{"message": "What did Steve Jobs say about design?"}
+```
+
+Response:
+
+```json
+{"reply": "...", "sources": ["stanford_2005.txt"]}
+```
+
+An empty message returns HTTP 400. Retrieval or model errors return HTTP 500.
+
+### `GET /health`
+
+Returns:
+
+```json
+{"status": "ok"}
+```
+
+## Configuration
+
+The following environment variables are supported:
+
+| Variable | Default | Purpose |
+| --- | --- | --- |
+| `OPENAI_API_KEY` | — | API key used for embeddings and chat completions |
+| `EMBEDDING_MODEL` | `text-embedding-3-small` | Embedding model |
+| `GENERATION_MODEL` | `gpt-4.1-mini` | Chat completion model |
+| `CHUNK_SIZE` | `200` | Words per corpus chunk |
+| `CHUNK_OVERLAP` | `40` | Overlapping words between chunks |
+| `TOP_K` | `4` | Number of retrieved chunks |
+
+## Deployment
+
+The repository includes a Dockerfile and a Render Blueprint example. Configure `OPENAI_API_KEY` in the deployment environment; do not commit secrets. The frontend and API are served from the same origin by default.
 
 ## Notes
-- API: `POST /chat` body `{"message":"..."}` returns `{"reply":"...","sources":[...]}` (sources list filenames only).  
-- Corpus: `data/steve_jobs/`; indexed on startup.  
-- For learning/demo only; answers do not represent the real person and may contain errors. Post-2011 topics are treated as hypothetical.
 
-## Deploy to Render (Backend)
-- Prereqs: Render account linked to GitHub; repo contains `Dockerfile` (and optional `render.yaml`); set `OPENAI_API_KEY` in Render console (do not commit real keys).
-- Steps:
-  1) Log in to Render, create a new Web Service.
-  2) Connect the GitHub repo containing this project.
-  3) Render detects the root `Dockerfile`; use default build settings (or adjust).
-  4) In "Environment" tab, set `OPENAI_API_KEY`.
-  5) Deploy and wait until status is "Live".
-  6) Service URL will look like `https://your-service-name.onrender.com`.
-  7) Test endpoints: `GET /health`, `POST /chat` with `{"message": "Hello"}`.
-- Frontend: host `frontend/` locally or via GitHub Pages; set `API_BASE_URL` in `frontend/main.js` to your Render URL so it calls the deployed backend.
-
-
-=======
-# Jobs_Chat_RAG
-In this project, RAG-powered “Steve Jobs” persona chatbot built with FastAPI and OpenAI. Retrieves answers from his real speeches/interviews and runs as a full-stack demo (API + minimal web UI).
->>>>>>> 25ee0f4c7a0c2c787c6a67ecb6debe83e38e3554
+This is a learning/demo project. It generates AI-written responses inspired by public source material; answers may be inaccurate and do not represent Steve Jobs. The application includes basic prompt guidance for private-life and post-2011 questions, but it is not a fact-checking system.

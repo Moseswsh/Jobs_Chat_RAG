@@ -1,0 +1,218 @@
+TITLE: Boston Computer Society — Macintosh Introduction and Q&A
+DATE: 1984-01-30
+SPEAKER: Steve Jobs
+CONTENT_TYPE: speech and Q&A
+SOURCE_URL: https://allaboutstevejobs.com/videos/keynotes/macintosh_introduction_bcs_1984
+
+---
+
+
+Good evening. I'm Steve Jobs from Apple Computer. We're very glad to be here tonight.
+
+It is 1958. IBM passes up the chance to buy a young fledgling company that has just invented a new technology called xerography. Two years later, Xerox is born and IBM has been kicking themselves ever since.
+
+It is ten years later, the late sixties. Digital Equipment Corporation and others invent the mini computer. IBM dismisses the mini computer as too small to do serious computing and therefore unimportant to their business. DEC grows to become a multi hundred million dollar corporation before IBM finally enters the mini computer market.
+
+It is now ten years later, the late seventies. In 1977, Apple, a young fledgling company on the West Coast invents the Apple to the first personal computer as we know it today. IBM dismisses the personal computer as too small to do serious computing and therefore unimportant to their business.
+
+The early 1980s, 1981. Apple two has become the world's most popular computer and Apple has grown to a $300 million corporation, becoming the fastest growing company in American business history. With over 50 competitors vying for a share, IBM enters the personal computer market in November of 1981, with the IBM PC.
+
+1983. Apple and IBM emerged as the industry's strongest competitors, each selling approximately $1 billion worth of personal computers in 1983. Each will invest greater than $50 million for research and development and another $50 million for television advertising alone in 1984, totaling almost one quarter of a billion dollars combined. The shakeout is in full swing. The first major firm goes bankrupt, with others teetering on the brink. Total industry losses for 1983 outshadow even the combined profits of Apple and IBM for personal computers.
+
+It is now 1984. It appears IBM wants it all. Apple is perceived to be the only hope to offer IBM a run for its money. Dealers, initially welcoming IBM with open arms, now fear an IBM dominated and controlled future. They are increasingly turning back to Apple as the only force that can ensure their future freedom. IBM - IBM wants it all, and is aiming its guns on its last obstacle to industry control, Apple. Will Big Blue dominate the entire computer industry? The entire information age? Was George Orwell right?
+
+1984 ad narrator: On January 24th, Apple Computer will introduce Macintosh. And you'll see why 1984 won't be like "1984".
+
+There have only been two milestone products in our industry to date. The first was Apple II in 1977. The second was the IBM PC in 1981.
+
+Come on, let's be fair...
+
+What we need now, is the third industry milestone product, and that's what Macintosh is all about. We've been working on this thing for over two years now. And those of us that have been really close to it, will all tell you it is insanely great. And you'll have a chance to see a little bit more of it later on tonight.
+
+And we're introducing it at a mainstream price point, as most of you know, of $2,495. And what I want to do is run through some of the key milestones and key features of Macintosh very briefly, just in case you haven't heard all about them. And then we'll get into some more interesting stuff here.
+
+The first thing is that Macintosh uses Lisa technology. It's got the identical user interface of Lisa with its radical ease of use, its mice, windows, pull down menus, point-click-cut-and-paste. And to accomplish this, we use exactly the same microprocessor as Lisa: a 68000, running at eight megahertz, and this thing eats 8088s for breakfast.
+
+Macintosh has about 192K bytes of memory. 64K of it is ROM, 128K of it is RAM. And inside the 64K bytes of ROM is contained the entire operating system, the entire graphics foundation and sub system and the entire user interface: all the windowing stuff, the menu stuff, the mouse stuff, all in ROM.
+
+Just like the five and a quarter inch disc was a breakthrough in the seventies, we think the three and a half inch disc is a breakthrough in the eighties. And we're storing 400K bytes of formatted information on one side of these floppies, which fit inside your shirt pocket.
+
+Macintosh has two built in serial ports. These ports are RS 232 and RS 422. They go up to a megabit per second. And they also support a local interconnect scheme called Apple Bus, which allows you to connect up to 32 of these products together at virtually no additional costs.
+
+Macintosh has four voice sound and speech built in. And it talks to you on an extremely high definition, super crisp bitmapped nine - nine inch black and white screen. It's really incredible. As many of you might've had a chance to see at the hands-on, we have one last hands-on at nine o'clock tonight. This screen has over twice the dots of the IBM PC or Apple II, on its screen, very high definition. And all of this power fits into a box one-third the size and weight of the IBM PC. It's a truly transportable product.
+
+And in addition to that, there's a whole family of stuff that goes along with it. Image writer, printers, external disk drives, modems, carrying cases, and a sort of security kit so your Macintosh doesn't go anywhere without you.
+
+Now, you've seen some pictures of Macintosh in these slides. But what I'd like to do now is show you the Macintosh in person. And - all of the images that you will be seeing will be generated by what's in that bag right there.
+
+Now we've been doing an awful lot of talking about Macintosh lately as well, but tonight, really, for the second time ever, we'd like to let Macintosh speak for itself.
+
+Macintosh is targeted at two primary markets. And the first are those 25 million knowledge workers that sit behind desks, particularly in medium and small size offices. And the second is really the college worker. The people in college, that we think are going to be the knowledge workers of tomorrow and there's greater than 11 million college students in America alone.
+
+Now - the telephone. We look at the telephone and we're really impressed with the telephone because it was the first and really the only desk appliance. To be a desk appliance, you have to do something really useful and you have to be really easy to use, so people don't have to spend a lot of time learning how to use this thing, and you have to be really cheap. And we don't think there's been a desk appliance since the telephone. And what we want to do is make Macintosh the second desk appliance.
+
+Now, there are about 235 (million) people in America, but only a fraction of them can use a computer. And the message that we have with Macintosh is that it's the computer for the rest of us.
+
+And we're going to launch the largest advertising campaign in our history ever. Let's communicate this message to those knowledge workers in college workers. And it's going to kick off on the Olympics on February 6th. And I'd like to show you a five of those advertisements right now.
+
+So if you watch the Winter Olympics, you'll be seeing those, about two to three times a night.
+
+Now, you know that over 70% of all the computers used in education are Apples. And, uh, that makes us feel really good, cause we care a lot about that. And it's a great leverage point for the Apple II as well. And most of them are of course in kindergarten through 12th grades, cause that's where most of the schools are in those schools that bought computers faster than the colleges.
+
+But a year ago we went in search of about half a dozen colleges and universities throughout America, that would be using a large number of personal computers in 1984, and large meant greater than a thousand. And we didn't find a half a dozen. We found 24 major colleges and universities, and we announced this last Tuesday, the Apple University Consortium, which is formed of those 24 colleges and universities. All the seven Ivy league schools are part of this. They have placed over $50 million worth of orders today for Macintoshes. And they're going to be doing courseware development leading the way really for over the other, over 3000, some schools in this country. And, they're telling us that Macintosh is the ideal college computer. So we think you're going to see lots of Macintoshes on college campuses. And here's a list of them: Stanford, Harvard, Yale, Princeton, Dartmouth Brown on and on. And you're going to be seeing a lot of Macintoshes on campuses.
+
+Now, when we designed the Apple II, we designed it in a garage, but what most people don't know is we designed it to be built in a garage. And we figure if we ever made 50 of them a month, we'd be doing well. Uh, and we surpassed that goal at this last December, by over 2000. We shipped over a hundred thousand Apple IIs in December. But what we wanted to do with Macintosh was make it the first personal computer that was designed from the start to be built in the millions. There's never been a personal computer that you could say this about.
+
+We are currently making over 500 Macintoshes a day in this factory, and we will be ramping up to one every 27 seconds within the next few months.
+
+Now, Macintosh was developed by a small team of people, less than a hundred. And you're going to have a chance to, to meet and ask several of them some questions tonight. And this group of people are, they're more like artists than they are engineers. They're not really interested in careers. What they're interested in is doing something insanely great, and then getting it out into the world to leverage their energy. And they were able to leverage the resources of a billion dollar company in developing Macintosh.
+
+And, I've never in my life, had the privilege of working with, with such a fine, fine group of people. And, we think, you know, Macintosh has changed our lives, working with it over the last few years. And we think it's going to change the lives of millions of people that buy them.
+
+Macintosh is, you know, is, was probably one of the worst kept secrets in the world. But one of the best kept secrets was it that we didn't just introduce one standalone product again. We introduced a family of four new 32-bit products this week. And, we introduced Lisa a year ago and it clearly captured the imagination and set the technical direction of the industry. It didn't capture as many desks as we wanted to. But it's clear that everyone's running in the direction of mice and windows and icons, and you've seen Vision, and you're seeing sort of the early part of MS Windows, and even a rumored IBM windowing package.
+
+But what we introduced in addition to Macintosh were three new Lisas. And the first one was Lisa 2. It has a half a megabyte of RAM and a three and a half inch disc, totally compatible with Macintosh. And we introduced it at $3,495, just a thousand dollars more than Macintosh.
+
+The second Lisa's the Lisa 2/5. It added a five megabyte profile Winchester disk drive. And that was only a thousand dollars more again, $4,495.
+
+The third Lisa was Lisa 2/10. It's got a built in 10 megabyte Winchester disk drive right above the floppy there. And it's $5,495.
+
+Now all the Lisas, we switched over to use the three and a half inch floppy disk drive. We feel so strongly that it's the drive of the eighties. And it's totally compatible with Mac and we're doing something for all the existing Lisa 1 owners. We are upgrading their Lisa 1 to a Lisa 2/5. That means changing the three and a half inch disc drives, and you're changing the five and a quarters for three and a halves, and giving them a new front bezel and some new software, and that upgrade's entirely free for all existing owners.
+
+So as we move forward with the second iteration of this technology, we absolutely don't want to penalize those pioneers. And so we're just pulling them right along with us at no additional costs. But the other neat thing about all the three new Lisas and all the Lisa 1s, is it they're a hundred percent Macintosh software compatible. We pulled it off.
+
+And together, these four workstations are the foundation of what we're calling the Apple 32 super micros. It's a family of compatible products based on Lisa technology in 32 bit architecture. And if you look at the four workstations, they now span a pretty wide range of price and performance, all the way from the key building block, which is Macintosh at $2,495, to sort of the flagship and performance, which is Lisa 2/10 at $5,495.
+
+Now let me tell you a few other things, in addition to workstations, which are going to form the basis of this super micros family. The first thing is Apple Bus. Now, as you all know, local area networks, uh, the whole area of local area networking is a joke right now. Ethernet never really took off. IBM has been promising the world, a local area network now for two years, and hasn't announced anything. And the last thing the world needs is another local area network.
+
+So what we're going to do is simply wait until those standards emerge and connect to those standards. But while those standards are emerging, people still want to hook things together yet they don't want to pay a thousand dollars per computer to hook them onto some sort of network. And so what we've done is we have built in Apple Bus to every single Lisa 1s, Lisa 2s, and Macintosh. It's built in, it operates at 230 kilobits per second, and operates up to a thousand meters. That -- excuse me, a thousand feet. And, for about $25 per computer retail, you'll be able to buy a little box screws on the back that simply has a little transformer and a few connectors in it, and hook up to 32 Macintoshes, Lisas and peripherals together for virtually free. And we think that this will be a really good idea for the next 24 months until the networking really shakes out. Sort of think of it as "free net".
+
+The next thing that we need to do is we need to print out these amazing graphics that we can create. And we have the ImageWriter printer, which we think is a pretty much of a breakthrough in terms of the price to do this. It sells for six -- $595. And when you buy it with a Macintosh, it's $495.
+
+But something we're really excited about is higher resolution dot printing. And before the end of 1984, we will introduce a breakthrough in laser xerographic printing for under $5,000. And we're working very hard on that. And I think when you see the results, you'll be really happy.
+
+Next thing that we need is we need to talk to these Big Blue mainframes. And to do that, we've got a little box called the Apple Line box. For about a thousand dollars, it's available now. And it hooks up to any Macintosh or Lisa and talks full 3278 Datacom with any IBM mainframe, does it as well or better than an IBM PC.
+
+This fall, you'll see small file servers in the 10 to 20 megabyte class that hook up to Applebus and shared Winchester that you can share among a bunch of Macintoshes and leases. It'll be very, very inexpensive.
+
+And then something that we hope to get out late this year or early next year is a Unix server. And we think Unix is a pretty lousy operating system to put inside a workstation, it's old technology, and it's really big and you need a Winchester, so you can never make the workstations cheap. But we think it's a great operating system when you're in a multi-user environment.
+
+And what we're going to be doing is coming out with a server, which is a large disc, a very fast CPU that hangs on the network that allows you to run Unix and vertical applications on top of it and use the Macintoshes and Lisas as really sort of "new wave" terminals into that software.
+
+Now, we thought long and hard about whether we should come out with an IBM PC compatible. And, we do a lot of market research. We have a pretty good brand out there in the marketplace and we could have sold a lot of them. But that's not what we wanted to do. What we want to do is we want to establish a second standard in the office, based on radical ease of use and the kind of power that these workstations are able to provide.
+
+But we know that if we're going to do that, we need to build bridges to the IBM world. And we think there's three major bridges that we have to build.
+
+The first one, and most importantly is -- for all the great software that runs on the IBM products, we've got to have better versions running on our Apple 32 workstations. And I think by the summer early fall, we will have accomplished that goal. The second is local area network support. We expect IBM to introduce one or two local area networks in the April, May, June timeframe. And we will connect to the most prevalent of those networks. And the third is the 3278 data communications, which we're doing now. So we think if we build these three bridges to the IBM network, that we can continue to sell better computers.
+
+Now, if you go back about a hundred years to the 1880s, there were approximately 20, 25,000 trained telegraph operators in the United States. And you really could send a telegram between Boston and San Francisco and it'd take about three or four hours and go through the relay stations, and it really worked. And it was a great breakthrough in technology -- they've been around for about 30, 40 years. And there were some people that talked about putting a telegraph machine on every desk in America to improve productivity.
+
+Now, what those people didn't know was about the same time, Alexander Graham Bell filed the original patents for the telephone, a breakthrough in technology. Because putting a telegraph machine on every desk in America to improve productivity, wouldn't have worked. People wouldn't have spent the 20 to 40 to 100 hours to learn Morse code. They just wouldn't have done it.
+
+But with the telephone within 10 years at over 200,000 telephones on desks in America, it was a breakthrough because people already knew how to use it. It performed the same basic function. But radical ease of use. And in addition to just letting you type in the words or clicking the words, it let you sing it, let you intone your sentences to really get your meanings across.
+
+We are at that juncture in our industry right now. There are people suggesting that we should put a current generation box on everyone's desk to improve productivity. A telegraph if you will. And we don't believe that, we don't think it will work. People will not read those damn 400 page WordStar manuals. They won't carry around these cards in their pockets with 150 slash-w-z's. They're not going to do it. And what we think we have here today finally is the first telephone. And in addition to letting you do the old spreadsheets and word processing, it lets you sing. It lets you make pictures. It lets you make diagrams where you can cut them and paste them into your documents. It lets you put that sentence in bold Helvetica or Old English, if that's the way you want to express yourself.
+
+What we think we've done is we've gotten us back on the track of letting us bring this technology, not just to people that have them hooked up to these Big Blue boxes in Fortune 500 corporations. Sure, we want to sell those - our products to those people. But what we're really doing, the reason we're doing what we're doing, is because we want to bring this to tens of millions of people. And never before has the time been riper, and never before with a radically easier to use 32 bit technology, we've been closer to doing just that.
+
+So with that, I'd like to ask everyone to just stand up and relax for a few minutes. And we're going to put a few tables up here and bring the Macintosh software team, and one of the members of the hardware team up here, and answer whatever questions you might have about what we're doing. Thanks.
+
+Talk a little bit about the piece that they did starting with my right, your left I guess.
+
+So if you have some really great questions, we'd like to answer them. But before we do, Bill and Randy are gonna run through some really quick demos, which you'll be able to see up on that screen to give you a little feeling for the kinds of things that we can do.
+
+Do we have any questions we might be able to help answer? Yes, in the front.
+
+Great. I'd like to ask a Burrell to talk a little bit about the hardware and, for Andy to talk a little bit about the software. Burrell?
+
+Okay. Next? Yeah. In the back there.
+
+The question is do we have an intermediate letter quality printer. The answer to that is yes and no. I'll handle the no first. No, we don't have one, because we don't believe in them. Uh, we believe in letter quality output, but we believe in getting that through much higher resolution dot printing such as a laser printer. Uh, we will - the Macintosh hardware supports letter quality printing, and some people like Microsoft are going to probably support daisy wheel printers. The problem is, how do you print the fish with a daisy wheel printer? And how do you print Old English with the daisy wheel printer? Let me ask Owen Densmore to jump in since Owen wrote all the printing for Macintosh and Lisa he's like a printing guru.
+
+One final note, if you look at the output that you get off a $500 ImageWriter printer, it's pretty amazing. And you, you can't, we can't stand up in here and say, it's letter quality printer, letter quality output that you might want to send out of a legal office. But with the exception of those kinds of very high end applications, you'd be surprised at how good it is. And the beauty of the fonts in many cases makes up for the slight lack of resolution. You gotta to take a look at it. It's pretty good. Anything else? Yes.
+
+The question was, do we have information on a new assembler that will be available. I guess come grab one of us after the meeting, trying to fill you in on all that stuff. Yes.
+
+Randy?
+
+Yes.
+
+any other questions?
+
+Oh, these are hard questions. You can do whatever you like. Okay. Any other questions? Yes.
+
+What's the development environment. Steve Capps?
+
+Yeah. Yes?
+
+There's some question is what about all the people that own Apple IIe's? I would, first of all, say that you own the most popular, serious, personal computer of all time. Number one. Number two, I think that statement is going to be true three years from now. See the real interesting question is when will we sell more of these in a quarter or in a month than we do Apple IIe's or Apple, or follow-on Apple II products. And I don't think it's going to be 1984 and I don't think it's going to be 1985. We sold 100,000, actually about 110,000 IIe's in December. What happened was, was we had a sort of a flat October because it's hard to compete against a product that doesn't exist. The minute the PC junior was introduced, our sales went through the roof.
+
+And I think you're gonna see an incredible commitment to the Apple II, on the part of ourselves and that third-party community. We're spending as much R&D on the Apple II family as we are on the Apple 32 bit family. And as you've seen, we have the mouse on the Apple II. It actually runs pull-down menus in a sort of simplified version of Paint that Bill helped someone else do. And you're going to see a lot of stuff on the II. You're going to see some, some very exciting things in 1984 and the II coz we're really committed to that product. Yeah. A matter of fact, there's, there's someone here tonight that we might want to bring up here that, that had a lot to do with the Apple II. Woz?
+
+Woz flew in from Seattle. We didn't know he was coming and he just showed up here. And he's here. Any other questions? Yes.
+
+Do we have a spreadsheet program for Mac. Uh, Microsoft has announced MultiPlan for Macintosh and it's in the stores now. And, Lotus has announced 123 for Macintosh and it's in their development labs now.
+
+Yes.
+
+The question is, when are you going to get the software? Where the - as you know, the word processor and Paint are available now, uh, we are rolling out the terminal program, I believe in February, Mac terminal. Mac Pascal is I believe March. Mac logo, I think is slipped. We've got a version of Basic, which is really hot that we've also slipped on probably in the May, June timeframe at the latest, although Microsoft's version of Basic is on, is going to be on the shelves within 30 days.
+
+Oh, it's available now. Oh, great. Great. Any from the real back? Yeah. Just stand up. Cause we can't see you.
+
+Okay. The first question was, do we see a three and a half inch diskette as a handicap? Clearly we do not. We're storing, as we said, 400K bytes of information on one side of the diskette. You can throw these things, you can take them and, uh, I would never do that with a five and a quarter inch floppy. And I bet that diskette will still work. They're really tightly protected. They don't need these ridiculous jackets. They're very high capacity and they're very reliable and will allow us to build smaller and smaller products in the future. So we're really happy with that decision. So happy that we converted all of the Lisas over to it. And you can expect that all future 32 bit products from Apple will use that technology for floppy diskette storage.
+
+On the color side, we had a very interesting challenge - and a choice. We knew how to do low resolution color, which is the kind that you can get on current generation personal computers. And we had a breakthrough on how to do high resolution, high definition, black and white. And as you can see from the Macintosh display, it's very high definition. We could not figure out a way to take very high definition color, which currently sells for 15 to $20,000 and figure out how to put it in a box that would sell for $2,500. We just don't - we don't think there's a way to do it today.
+
+So the question was, should we go with low resolution color, which you really don't want to stare at all day, or high definition black and white. And we chose the latter. Because there are a group of technologies converging around black and white as an example, the technology that lets us do the very high definition CRT in Macintosh. Secondly, someday we hope to put a Macintosh in a book, with flat panel technology, which will most certainly be initially monochromatic. And the third is that laser printing technology is going to be monochromatic initially as well. So there appears to be a lot of these high resolution black and white technologies converging in the next three or four years, which are going to allow us to blossom that out into a complete system. Someday there'll be color. And as a matter of fact, Bill built color into QuickDraw from day one. But, the types of products for the next 24 months are going to be monochromatic.
+
+What's that? Animation? That's a great word.
+
+Software for animation? Andy?
+
+You don't happen to have that do you?
+
+Yeah, you've got it?
+
+Ha, go get it yeah. Yes.
+
+The question is, after you become an expert, is the mouse still a feature or a handicap? Would anybody like to answer that? Or you want me to. Anybody else?
+
+Absolutely. The question. There's a few questions. First of all, we've got to do traditional things better with the mouse, and then we've got to do the untraditional things. Now we all know that it's hard to draw a fish with cursor keys. So we can start off there. The second thing is that. Even after you become an expert, we've done a lot of testing, it does take some extra time to get off of the keyboard and find the mouse and then get back to the keyboard and home position once you've used the mouse. But even with that delay, it is faster. Number one. And number two, after you've selected something, the chances are extremely high that you want to act on that selection, i.e. go up to the top of the screen in the menu bar. And since you're already on the mouse, if you add up both of those, it's much, much faster than cursor keys. In addition to being able to draw fish.
+
+Uh, the question is will the students who go to schools that are not part of this consortium be allowed to buy the Macintosh with a thousand dollars? Uh, the answer is no.
+
+Because we go bro.
+
+We are currently trying to broaden that program, out to, to probably, a larger number of schools in a second generation program. But we're not ready to roll on that right now. And certainly every school has called us about it. So we're in the process of figuring out exactly what to do. But we, again, our goal is to get these to tens of millions of people. And we know the college students can't necessarily afford $2,500, in that point in their life. So we're going to try some, some creative solutions to that. Yes?
+
+Sure.
+
+Yeah.
+
+Way in the back there. Yeah, no, you?
+
+Uh, two questions. One. How are we getting the video out? And second, do we have a version of SmallTalk? We're getting the video out. We add a little board inside the Macintosh that allows us to bring on video. Unfortunately, the Macintosh, well, fortunately the Macintosh's screen is very high resolution. What that means is you can't plug it into an ordinary TV. And so we didn't spend the extra, you know, 10 bucks, it would cost to build a video output in each Macintosh because nobody's have anything to hook it up to anyways. So for those people that really need it, we sort of, we can do a special version, which has an output, which is what's feeding this projector.
+
+In terms of SmallTalk, um, Bruce Horn actually has implemented several SmallTalks. He was at Xerox Park, at an early age. And I'll let him talk about that.
+
+Yes. The one I missed before. Right you. Yes, quick, stand up! No not.. See you missed it again.
+
+Is there going to be continued support for the Apple III? Is anyone calling you while I'm answering your question? No, seriously. We're shipping about 2,500 Apple IIIs a month. And 80% of those are going to people that already own Apple IIIs. Which means two things. One, the III is a pretty niche product. And two, people are really happy with them. So we anticipate making IIIs until the cows come home. With the upgrade of Pro DOS on the Apple II, the Apple II software environment's now much closer to the Apple III software environment. You're going to see much more of a migration of software between those two. So I think the III has got a pretty long life ahead of it. It's probably the fourth largest selling product in the industry right now. And we sort of look at it as our, our, you know, big brother to the Apple II. Do we have any, any more questions for the software group up here rather than sort of general marketing ones while they're here?
+
+Yeah, right up there. Does Macintosh do multitasking or not? Who wants to answer that one? Andy?
+
+Yes. Owen?
+
+Okay. One or two last question and we got to turn it back over to Jonathan. Yes. Right, sir.
+
+Will there ever be more than 128K and one drive in a Mac? Uh, yes and no.
+
+Uh, Burrell has designed the board to accept two 56K RAM chips in addition to the 64K RAM chips. So someday when we can get a large enough supply of 256K RAMs, there will be a 512K Mac, and there will be an upgrade path for all the existing owners to bring in their digital board and swap it out for a 512 K digital board at a certain price. And that's going to be real exciting. I would probably be about 1985, hopefully in the first half when we can do that.
+
+In terms of the second disk drive, we're not going to build a second disk drive into Mac for two or three reasons. First of all, we don't want everyone to have to pay for a second disk drive when only some people will use it. So the people that will use it can get an outboard disk drive. Secondly, it would have increased the weight in terms of it being a transportable small product and we didn't want to do that. And the third thing is some people may choose to get an add on Winchester, a direct connect Winchester rather than a second disk drive, and why burden them with having to pay for the second disc drive. So I think that we will stick with one disk drive again, I think sometime, maybe, you know, in the first half of 1985, we might be able to go to double-sided drives. And obviously again, we'll provide some sort of upgrade path for the existing owners. It's hard to tell right now. One last question. Over there.
+
+Do we have any plans for a database management system? A lot of people have plans for database management system on Macintosh. I think you'll see a half a dozen of them by fall.
+
+Okay. Thank you very much.
+
+Remember that, that, when you use a Macintosh, these are the people that did it. And they were sort of hiding out in that ROM. Thanks.
