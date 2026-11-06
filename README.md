@@ -1,106 +1,101 @@
 # Jobs Chat RAG
 
-A small retrieval-augmented chat application built with FastAPI, OpenAI, and a static browser UI. It retrieves passages from the text files in `data/steve_jobs` and uses them to answer questions in a Steve Jobs-inspired persona for learning and demonstration.
+A learning/demo chat application built with FastAPI, PostgreSQL, and OpenAI. It retrieves passages from the text files in `data/steve_jobs`, keeps separate conversation histories, and uses recent turns to understand follow-up questions.
 
 ## Features
 
-- Loads every non-empty `.txt` file directly inside `data/steve_jobs` at application startup.
-- Splits corpus text into overlapping word-based chunks and creates embeddings with OpenAI.
-- Retrieves the most relevant chunks using cosine similarity, then generates an answer with the retrieved context.
-- Returns the source filenames alongside each answer.
-- Serves the chat page, JavaScript, and CSS from the FastAPI application.
-- Includes `/health` for a basic service health check.
+- Builds the existing in-memory RAG index from `.txt` files in `data/steve_jobs` at startup.
+- Stores conversations and messages in PostgreSQL.
+- Creates UUID-based conversations, lists only the current browser's saved conversations, restores a selected conversation after refresh, and supports deleting a conversation.
+- Uses up to eight recent messages by default for answer context. Recent user questions are also combined with the current question for retrieval, helping resolve follow-ups such as “Why did he say that?”
+- Returns retrieved source filenames with each answer.
+- Provides a browser chat UI, `/docs` API documentation, and a `/health` endpoint.
 
-The corpus is indexed in memory when the application starts. Restart the application after changing corpus files so the index is rebuilt.
+The project has no account system. Conversation IDs are unguessable UUIDs, not user authentication. The browser stores its conversation ID list in `localStorage`; clearing browser data or switching browsers loses that list. Do not use this demo for sensitive conversations or as a public multi-user service without adding authentication and access controls.
 
-## Requirements
+## Run with Docker Compose
 
-- Python 3.11 or newer
-- An OpenAI API key with access to the configured embedding and chat models
+Requirements: Docker Desktop with Docker Compose and an OpenAI API key that can access the configured embedding and chat models.
 
-## Run locally
-
-1. Create and activate a virtual environment:
+1. Create a local environment file:
 
    ```bash
-   python -m venv .venv
+   cp .env.example .env
    ```
 
-   Windows PowerShell:
+   On Windows PowerShell, run `Copy-Item .env.example .env`. Set `OPENAI_API_KEY` in `.env`. Compose supplies the internal PostgreSQL URL to the app container. Never commit this file or real credentials.
 
-   ```powershell
-   .\.venv\Scripts\Activate.ps1
-   ```
-
-   macOS/Linux:
+2. Build and start the app and PostgreSQL:
 
    ```bash
-   source .venv/bin/activate
+   docker compose up --build
    ```
 
-2. Install dependencies:
+   Compose waits for PostgreSQL's health check before starting FastAPI. On startup, SQLAlchemy creates the `conversations` and `messages` tables, then builds the RAG index. Open <http://localhost:8000> for the chat UI or <http://localhost:8000/docs> for API documentation.
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+   Stop the containers with `Ctrl+C`, or run `docker compose down` in another terminal. PostgreSQL data is kept in the `postgres_data` named volume. To delete the database data too, use `docker compose down --volumes`.
 
-3. Set `OPENAI_API_KEY` in the environment or in a root `.env` file:
-
-   ```text
-   OPENAI_API_KEY=your_api_key
-   ```
-
-4. Start the server:
-
-   ```bash
-   uvicorn backend.main:app --reload --port 8000
-   ```
-
-5. Open <http://localhost:8000> in a browser. The API documentation is available at <http://localhost:8000/docs>.
+The PostgreSQL credentials in `compose.yaml` are for local development only. Change them before using this configuration in a shared or public environment. The database port is published only on localhost.
 
 ## API
+
+### `POST /conversations`
+
+Creates a conversation and returns its UUID, title, and timestamps. The application intentionally has no endpoint that lists all database conversations.
+
+### `GET /conversations/{conversation_id}/messages`
+
+Returns messages in chronological order. Returns 404 when the conversation does not exist.
+
+### `DELETE /conversations/{conversation_id}`
+
+Deletes the conversation and its associated messages. Returns 404 when it does not exist.
 
 ### `POST /chat`
 
 Request:
 
 ```json
-{"message": "What did Steve Jobs say about design?"}
+{
+  "conversation_id": "replace-with-a-conversation-uuid",
+  "message": "What did Steve Jobs say about design?"
+}
 ```
 
 Response:
 
 ```json
-{"reply": "...", "sources": ["stanford_2005.txt"]}
+{
+  "conversation_id": "replace-with-a-conversation-uuid",
+  "title": "What did Steve Jobs say about design?",
+  "reply": "...",
+  "sources": ["stanford_2005.txt"]
+}
 ```
 
-An empty message returns HTTP 400. Retrieval or model errors return HTTP 500.
+A blank message returns HTTP 400. An unknown conversation returns HTTP 404. If retrieval or model generation fails, the user message remains stored for continuity, and no assistant reply is saved.
 
 ### `GET /health`
 
-Returns:
-
-```json
-{"status": "ok"}
-```
+Returns `{"status":"ok"}`.
 
 ## Configuration
 
-The following environment variables are supported:
-
 | Variable | Default | Purpose |
 | --- | --- | --- |
-| `OPENAI_API_KEY` | — | API key used for embeddings and chat completions |
+| `OPENAI_API_KEY` | — | OpenAI API key |
+| `DATABASE_URL` | — | PostgreSQL connection URL; required |
 | `EMBEDDING_MODEL` | `text-embedding-3-small` | Embedding model |
 | `GENERATION_MODEL` | `gpt-4.1-mini` | Chat completion model |
 | `CHUNK_SIZE` | `200` | Words per corpus chunk |
 | `CHUNK_OVERLAP` | `40` | Overlapping words between chunks |
 | `TOP_K` | `4` | Number of retrieved chunks |
+| `CONVERSATION_HISTORY_MESSAGES` | `8` | Maximum prior messages sent as conversation context; clamped to 2–20 |
 
 ## Deployment
 
-The repository includes a Dockerfile and a Render Blueprint example. Configure `OPENAI_API_KEY` in the deployment environment; do not commit secrets. The frontend and API are served from the same origin by default.
+The repository includes a Dockerfile and a Render Blueprint example. Set both `OPENAI_API_KEY` and `DATABASE_URL` in the deployment environment. For production, use a managed PostgreSQL database and a private credential. Tables are created with SQLAlchemy `create_all`; schema migrations are not included in this first upgrade.
 
 ## Notes
 
-This is a learning/demo project. It generates AI-written responses inspired by public source material; answers may be inaccurate and do not represent Steve Jobs. The application includes basic prompt guidance for private-life and post-2011 questions, but it is not a fact-checking system.
+The assistant is an AI persona inspired by public source material, not Steve Jobs. Answers may be inaccurate. The application includes prompt guidance for private-life and post-2011 questions, but it is not a fact-checking system.

@@ -14,16 +14,24 @@
       <p class="subtitle">RAG chatbot based on Steve Jobs public talks/interviews (for learning/demo only).</p>
     </header>
 
-    <main class="chat-card">
-      <div id="messages" class="messages" aria-live="polite"></div>
-
-      <div class="input-area">
-        <textarea id="input" rows="3" placeholder="Ask Steve Jobs something..." aria-label="Your message"></textarea>
-        <div class="actions">
-          <button id="sendBtn" type="button">Send</button>
-          <span class="hint">Press Enter to send, Shift+Enter for newline</span>
+    <main class="app-layout">
+      <aside class="history-panel" aria-label="Conversation history">
+        <div class="history-heading">
+          <h2>History</h2>
+          <button id="newChatBtn" type="button">New chat</button>
         </div>
-      </div>
+        <div id="conversationList" class="conversation-list"></div>
+      </aside>
+      <section class="chat-card" aria-label="Chat">
+        <div id="messages" class="messages" aria-live="polite"></div>
+        <div class="input-area">
+          <textarea id="input" rows="3" placeholder="Ask Steve Jobs something..." aria-label="Your message"></textarea>
+          <div class="actions">
+            <button id="sendBtn" type="button">Send</button>
+            <span class="hint">Press Enter to send, Shift+Enter for newline</span>
+          </div>
+        </div>
+      </section>
     </main>
   </div>
 

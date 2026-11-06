@@ -6,11 +6,16 @@ services:
     envVars:
       - key: OPENAI_API_KEY
         sync: false         # Manually fill in Render console, do not write to repo
+      - key: DATABASE_URL
+        sync: false         # Set to the PostgreSQL connection URL in Render
     # If port needs to be specified, keep consistent with Dockerfile/uvicorn (8000)
     # Render will automatically detect the Dockerfile in root directory to build image
 # Notes:
 # - render.yaml serves as deployment documentation and parameter conventions; Render will read Dockerfile to complete the build.
 # - When deploying, create Web Service in Render console, connect GitHub repo and set environment variables.
+
+
+
 
 
 

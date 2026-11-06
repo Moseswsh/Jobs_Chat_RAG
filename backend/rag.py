@@ -123,7 +123,12 @@ class RAGPipeline:
         top_indices = scores.argsort()[::-1][: self.top_k]
         return [self.documents[i] for i in top_indices]
 
-    def generate_answer(self, question: str, contexts: List[Document]) -> str:
+    def generate_answer(
+        self,
+        question: str,
+        contexts: List[Document],
+        history: List[dict[str, str]] | None = None,
+    ) -> str:
         """
         Call LLM to generate answer.
         - To change model, modify generation_model or environment variable GENERATION_MODEL.
@@ -167,12 +172,17 @@ class RAGPipeline:
             f"{joined_contexts}"
         )
 
+        messages = [{"role": "system", "content": system_prompt}]
+        messages.extend(
+            {"role": item["role"], "content": item["content"]}
+            for item in (history or [])
+            if item.get("role") in {"user", "assistant"}
+        )
+        messages.append({"role": "user", "content": user_content})
+
         completion = self.client.chat.completions.create(
             model=self.generation_model,
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_content},
-            ],
+            messages=messages,
         )
         return completion.choices[0].message.content.strip()
 

@@ -1,0 +1,6 @@
+.git
+.env
+.venv
+__pycache__/
+*.py[cod]
+jobs_corpus_research_kit/

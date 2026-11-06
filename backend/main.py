@@ -1,34 +1,33 @@
 from pathlib import Path
-from typing import List
+import logging
 
-from fastapi import FastAPI, HTTPException
+from fastapi import Depends, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse
 from dotenv import load_dotenv
-from pydantic import BaseModel
+from sqlalchemy.orm import Session
 
+load_dotenv()
+
+from backend.database import Base, engine, get_db
+from backend.routers.conversations import router as conversations_router
 from backend.rag import RAGPipeline
+from backend.schemas import ChatRequest, ChatResponse
+from backend.services.chat import respond_to_chat
+from backend import models  # noqa: F401 - registers ORM models on Base.metadata
 
 
-class ChatRequest(BaseModel):
-    message: str
-
-
-class ChatResponse(BaseModel):
-    reply: str
-    sources: List[str]
+logger = logging.getLogger(__name__)
 
 
 # Data directory (project root / data / steve_jobs)
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data" / "steve_jobs"
 
-# Load .env (e.g., OPENAI_API_KEY), so we don't set env vars every time
-load_dotenv()
-
 # Initialize FastAPI
 app = FastAPI(title="Steve Jobs RAG Demo", version="0.1.0")
+app.include_router(conversations_router)
 
 # CORS: Allow browser frontend (even from different domains) to call this API on Render.
 # In production, change "*" to the actual frontend domain (e.g., GitHub Pages).
@@ -50,17 +49,18 @@ rag_pipeline = RAGPipeline(data_dir=DATA_DIR)
 
 @app.on_event("startup")
 def startup_event() -> None:
-    """Build embeddings index on startup."""
+    """Create the conversation tables and build the embeddings index."""
     try:
+        Base.metadata.create_all(bind=engine)
         rag_pipeline.load_and_build_index()
         print(f"Index built, corpus dir: {DATA_DIR}")
     except Exception as exc:  # noqa: BLE001 - Fail fast on startup errors
-        print(f"Startup failed: {exc}")
+        logger.error("Application startup failed (%s)", type(exc).__name__)
         raise
 
 
 @app.post("/chat", response_model=ChatResponse)
-def chat(request: ChatRequest) -> ChatResponse:
+def chat(request: ChatRequest, db: Session = Depends(get_db)) -> ChatResponse:
     """
     Chat endpoint:
     1) Embed the question and retrieve relevant chunks.
@@ -68,15 +68,7 @@ def chat(request: ChatRequest) -> ChatResponse:
     """
     if not request.message.strip():
         raise HTTPException(status_code=400, detail="message cannot be empty")
-
-    try:
-        docs = rag_pipeline.search(request.message)
-        answer = rag_pipeline.generate_answer(request.message, docs)
-        # Only return source filenames (deduplicated)
-        source_files = list({doc.source for doc in docs})
-        return ChatResponse(reply=answer, sources=source_files)
-    except Exception as exc:  # noqa: BLE001
-        raise HTTPException(status_code=500, detail=str(exc)) from exc
+    return respond_to_chat(request, db=db, rag=rag_pipeline)
 
 
 @app.get("/", response_class=HTMLResponse)
